@@ -17,6 +17,7 @@ def main():
     """Run administrative tasks."""
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "hello_world.settings")
     execute_from_command_line(sys.argv)
+    print("Hello, World!")
 
 
 if __name__ == "__main__":
